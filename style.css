@@ -13,10 +13,14 @@
 }
 
 body {
-    background-image: url(images/background.jpg);
+    background: linear-gradient(rgba(0,0,0,.70),rgba(0, 0, 0, 0.70)100%),url(images/background.jpg);
     background-repeat: no-repeat;
+    background-size: 100%;
     display: flex;
     margin: 10%;
+    width: auto;
+    height: 100%;
+    overflow-y: hidden;
 }
 
 main {
@@ -46,9 +50,14 @@ nav {
     flex-direction: column;
     align-items: center;
     margin: 5%;
+    font-family: 'Open Sans', sans-serif;
 }
 
 nav img {
     width: 70%;
     border-radius: 50%;
 }
+
+nav a {
+    text-decoration: none;
+    color: var(--azul);
