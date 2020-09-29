@@ -1,0 +1,32 @@
+:root {
+    --azul: #acbdba;
+    --cinza: #cddddd;
+    --laranja: #f26430;
+    --grafite:  #2e2f2f;
+    --preto: #051014;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(rgba(5,16,20,0.5), rgba(45,47,47,0.5)), url(images/background.jpg);
+    display: flex;
+}
+
+header {
+    font-family: 'Orbitron', sans-serif;
+    color: var(--azul);
+}
+
+h1 {
+    color: var(--laranja);
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--cinza);
+}
